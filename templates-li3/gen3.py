@@ -8,13 +8,13 @@ W='smartschool360.co.in'
 # ---------- 1 Apple-style reveal (cover = poster A) ----------
 P['p1-company-update']=['A.png',
  pg(hd()+'<div class="abs m" style="left:80px;top:250px;color:var(--mute)">Since our last update</div>'
-   +''.join(f'<div class=abs style="left:80px;right:80px;top:{t}px;border-top:2px solid #E4E3DD;padding-top:34px"><div style="font:800 76px/1 Inter Tight;letter-spacing:-3px">{a}</div><div style="font:500 32px/1.35 Inter Tight;color:var(--mute);margin-top:16px">{b}</div></div>' for t,a,b in [(320,'Smart School 360.','Our complete school bell and PA system.'),(610,'Three models.','Z1, Z2 and Z3, from small schools to large campuses.'),(900,'A government pilot.','Z.P. Primary School, Nighoje (Khed), with DEO (Primary), Pune permission.')])
+   +''.join(f'<div class=abs style="left:80px;right:80px;top:{t}px;border-top:2px solid #E4E3DD;padding-top:34px"><div style="font:800 76px/1 Inter Tight;letter-spacing:-3px">{a}</div><div style="font:500 32px/1.35 Inter Tight;color:var(--mute);margin-top:16px">{b}</div></div>' for t,a,b in [(320,'Smart School 360.','Our complete school bell and PA system.'),(610,'Three models.','From small schools to large campuses.'),(900,'A government pilot.','Z.P. Primary School, Nighoje (Khed), with DEO (Primary), Pune permission.')])
    +ft(W,'02 / 04','color:var(--mute)'),bg='background:#fff'),
  pg(hd()+'<div class=abs style="left:80px;right:80px;top:230px;text-align:center;font:900 104px/0.95 Inter Tight;letter-spacing:-4.5px">Runs the day.<br><span style="color:#B5B6AF">On its own.</span></div>'
-   +'<img src=product-clean.png class=abs style="left:110px;top:560px;width:860px;filter:drop-shadow(0 40px 34px rgba(0,0,0,.28))">'
+   +'<img src=photo.png class=abs style="left:90px;top:470px;width:900px">'
    +'<div class="abs m" style="left:80px;right:80px;top:1060px;display:flex;justify-content:center;gap:34px;color:var(--ink)"><span>Bells</span><span style="color:var(--lime)">●</span><span>Prayers</span><span style="color:var(--lime)">●</span><span>Announcements</span><span style="color:var(--lime)">●</span><span>Siren</span></div>'
    +'<div class=abs style="left:80px;right:80px;top:1120px;text-align:center;font:500 30px Inter Tight;color:var(--mute)">With battery backup, so it keeps going in a power cut.</div>'
-   +ft(W,'03 / 04','color:var(--mute)'),bg='background:var(--paper)'),
+   +ft(W,'03 / 04','color:var(--mute)'),bg='background:#fff'),
  pg(hd(col='color:#F4F3EE')+'<div class=abs style="left:80px;right:80px;top:300px;font:900 128px/0.92 Inter Tight;letter-spacing:-5px">See it run<br>on <span style="color:var(--lime)">your</span><br>timetable.</div>'
    +'<div class=abs style="left:80px;right:120px;top:740px;font:500 34px/1.4 Inter Tight;color:#A9AAA3">We survey your campus, install, program and train your staff in Marathi, Hindi or English.</div>'
    +'<div class=abs style="left:80px;top:950px"><span class=btn>Book a free online demo <span>→</span></span></div>'
@@ -34,9 +34,7 @@ P['p2-who-rings-the-bell']=[
  pg(hd(col='color:#F4F3EE')+'<div class="abs m" style="left:80px;top:250px;color:var(--lime)">With Smart School 360</div>'
    +'<div class=abs style="left:62px;top:300px;font:900 380px/0.85 Inter Tight;letter-spacing:-22px;color:var(--lime)">11:00</div>'
    +'<div class=abs style="left:80px;right:80px;top:640px;font:900 92px/0.95 Inter Tight;letter-spacing:-3.5px">Every bell.<br>Every day.</div>'
-   +'<div class=abs style="left:380px;top:780px;width:700px;height:500px;background:radial-gradient(closest-side,rgba(244,243,238,.24),rgba(244,243,238,.07) 55%,rgba(244,243,238,0) 100%)"></div>'+'<img src=product-clean.png class=abs style="left:470px;top:900px;width:520px;filter:drop-shadow(0 30px 30px rgba(0,0,0,.6))">'
-   +'<div class=abs style="left:80px;width:340px;top:900px;font:500 28px/1.4 Inter Tight;color:#A9AAA3">Set the timetable once. It rings every bell, prayer and announcement on its own.</div>'
-   +ft('Free online demo · '+W,'03 / 03','color:#A9AAA3'),'dark')]
+   +'<div class=abs style="left:80px;right:80px;top:850px;font:500 30px/1.4 Inter Tight;color:#A9AAA3">Set the timetable once. It rings every bell, prayer and announcement on its own.</div>'+'<div class=abs style="left:0;right:0;top:960px;bottom:0;background:#fff url(photo.png) center 42%/700px auto no-repeat"></div>','dark')]
 # ---------- 3 data-led report ----------
 def rep(i,n,label,big,bigsize,line,sub,extra=''):
     return pg(hd('Pilot report · Nov 2025')+f'<div class="abs m" style="left:80px;top:230px;color:var(--mute)">{label}</div>'
@@ -96,8 +94,8 @@ P['p8-emergency-siren']=[pg('<div class=abs style="left:50%;top:330px;width:900p
 # ---------- 9 Apple lineup ----------
 col=lambda m,a,z,on: f'<div style="text-align:center;padding:36px 20px 40px;border-radius:28px;{"background:var(--ink);color:#fff" if on else "background:#F4F3EE"}"><div style="font:900 96px Inter Tight;letter-spacing:-4px;{"color:var(--lime)" if on else ""}">{m}</div><div style="font:700 32px Inter Tight;margin-top:6px">{a}</div><div style="font:500 26px Inter Tight;margin-top:10px;color:{"#A9AAA3" if on else "var(--mute)"}">{z}</div>{"<div class=m style=\"margin-top:18px;font-size:14px;color:var(--lime)\">Most popular</div>" if on else ""}</div>'
 P['p9-which-model-fits']=[pg(hd()+'<div class=abs style="left:80px;right:80px;top:210px;text-align:center;font:900 110px/0.95 Inter Tight;letter-spacing:-5px">A model for<br>every campus.</div>'
-   +'<img src=product-clean.png class=abs style="left:190px;top:480px;width:700px;filter:drop-shadow(0 34px 30px rgba(0,0,0,.25))">'
-   +'<div class=abs style="left:80px;right:80px;top:830px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:end">'+col('Z1','Small schools','Up to 2 zones',0)+col('Z2','Most schools','4 zones',1)+col('Z3','Large campuses','Full campus',0)+'</div>'
+   +'<img src=photo.png class=abs style="left:180px;top:420px;width:720px;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 14%)">'
+   +'<div class=abs style="left:80px;right:80px;top:830px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:end">'+col('Z2','Small schools','2 zones',0)+col('Z4','Most schools','4 zones',1)+col('Z5','Large campuses','5 zones',0)+'</div>'
    +'<div class=abs style="left:80px;right:80px;top:1170px;text-align:center;font:500 26px Inter Tight;color:var(--mute)">Same touchscreen, siren and battery backup in every model.</div>'
    +ft('Free online demo',W,'color:var(--mute)'),bg='background:#fff')]
 manifest={}
