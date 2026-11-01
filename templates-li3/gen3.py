@@ -34,7 +34,7 @@ P['p2-who-rings-the-bell']=[
  pg(hd(col='color:#F4F3EE')+'<div class="abs m" style="left:80px;top:250px;color:var(--lime)">With Smart School 360</div>'
    +'<div class=abs style="left:62px;top:300px;font:900 380px/0.85 Inter Tight;letter-spacing:-22px;color:var(--lime)">11:00</div>'
    +'<div class=abs style="left:80px;right:80px;top:640px;font:900 92px/0.95 Inter Tight;letter-spacing:-3.5px">Every bell.<br>Every day.</div>'
-   +'<img src=product-clean.png class=abs style="left:470px;top:900px;width:520px;filter:drop-shadow(0 30px 30px rgba(0,0,0,.6))">'
+   +'<div class=abs style="left:380px;top:780px;width:700px;height:500px;background:radial-gradient(closest-side,rgba(244,243,238,.24),rgba(244,243,238,.07) 55%,rgba(244,243,238,0) 100%)"></div>'+'<img src=product-clean.png class=abs style="left:470px;top:900px;width:520px;filter:drop-shadow(0 30px 30px rgba(0,0,0,.6))">'
    +'<div class=abs style="left:80px;width:340px;top:900px;font:500 28px/1.4 Inter Tight;color:#A9AAA3">Set the timetable once. It rings every bell, prayer and announcement on its own.</div>'
    +ft('Free online demo · '+W,'03 / 03','color:#A9AAA3'),'dark')]
 # ---------- 3 data-led report ----------

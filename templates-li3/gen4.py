@@ -17,7 +17,7 @@ P['p4-more-than-a-bell']=[
    +'<div class=abs style="left:80px;right:80px;top:1010px;font:500 30px/1.4 Inter Tight;color:var(--mute)">Schools can also add their own audio and Marathi voice-overs. Audio features vary by model.</div>'
    +ft(W,'02 / 03','color:var(--mute)'),bg='background:#fff'),
  pg(hd(col='color:#F4F3EE')+'<div class=abs style="left:80px;right:80px;top:250px;font:900 120px/0.92 Inter Tight;letter-spacing:-5px">Set it once.<br><span style="color:var(--lime)">It cares daily.</span></div>'
-   +'<img src=product-clean.png class=abs style="left:110px;top:560px;width:860px;filter:drop-shadow(0 40px 34px rgba(0,0,0,.6))">'
+   +'<div class=abs style="left:-40px;top:400px;width:1160px;height:700px;background:radial-gradient(closest-side,rgba(244,243,238,.24),rgba(244,243,238,.07) 55%,rgba(244,243,238,0) 100%)"></div>'+'<img src=product-clean.png class=abs style="left:110px;top:560px;width:860px;filter:drop-shadow(0 40px 34px rgba(0,0,0,.6))">'
    +'<div class=abs style="left:80px;top:1020px"><span class=btn>Book a free online demo <span>→</span></span></div>'
    +ft('WhatsApp 98349 75938','03 / 03','color:#A9AAA3'),'dark')]
 # ---------- 13 Nov: Swiss self-check ----------
