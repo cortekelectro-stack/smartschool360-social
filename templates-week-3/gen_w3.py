@@ -8,7 +8,7 @@ P['post-1-exam-timetables']=[
  rows(3,n,'dark','How it works','Program once.<br><span>Tap to switch.</span>',[('1','Start of term','We program all three timetables with you.'),('2','Exam morning','Tap A1. The exam timings take over.'),('3','Exams end','Tap A0. Your regular schedule was never touched.')],rtop=540),
  cta(4,n,'No reprogramming','Exam week,<br>sorted.',['A0 Regular','A1 Exam','A2 Vacation','Battery backup'])]
 # post 2 silent mode
-shot='<img src=main-screen.png style="position:absolute;left:160px;top:190px;width:760px;border-radius:24px">'+'<div style="position:absolute;left:427px;top:257px;width:150px;height:150px;border-radius:50%;border:8px solid var(--lime);box-shadow:0 0 0 14px rgba(163,207,68,.25)"></div>'+'<span class=chip style="position:absolute;left:445px;top:420px;background:var(--lime);color:var(--ink)">Tap ✕</span>'
+shot='<img src=main-screen.png style="position:absolute;left:160px;top:190px;width:760px;border-radius:24px">'+'<div style="position:absolute;left:446px;top:184px;width:150px;height:150px;border-radius:50%;border:8px solid var(--lime);box-shadow:0 0 0 14px rgba(163,207,68,.25)"></div>'
 P['post-2-silent-mode']=[cover_graphic(1,1,'VIP visit or assembly','One tap.<br><span>Bells pause.</span>','Silent mode pauses every scheduled bell. <b>The mic and music still work.</b> Tap again and the schedule carries on from the next bell.',shot,top_px=790,size=160)]
 # post 3 weekday prayers
 days=[('MON','Morning prayer'),('TUE','National anthem'),('WED','School prayer'),('THU','Pledge'),('FRI','School song'),('SAT','Calm audio')]

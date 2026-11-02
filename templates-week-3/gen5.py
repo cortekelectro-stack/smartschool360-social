@@ -11,8 +11,8 @@ P['l1-exam-modes']=[pg(hd()+'<div class=abs style="left:80px;right:80px;top:200p
 # L2 Apple minimal: Silent mode
 P['l2-silent-mode']=[pg(hd()+'<div class=abs style="left:0;right:0;top:230px;text-align:center;font:900 300px/0.9 Inter Tight;letter-spacing:-16px">Shh.</div>'
  +'<div class=abs style="left:140px;right:140px;top:560px;text-align:center;font:600 44px/1.25 Inter Tight;letter-spacing:-1px">Silent mode pauses every<br>scheduled bell. One tap.</div>'
- +'<img src=main-screen.png class=abs style="left:240px;top:760px;width:600px">'
- +'<div class=abs style="left:432px;top:793px;width:96px;height:96px;border-radius:50%;border:6px solid var(--lime)"></div>'
+ +'<img src=main-screen.png class=abs style="left:240px;top:760px;width:600px;border-radius:24px;box-shadow:0 24px 70px rgba(11,12,10,.16)">'
+ +'<div class=abs style="left:477px;top:767px;width:96px;height:96px;border-radius:50%;border:6px solid var(--lime)"></div>'
  +'<div class="abs m" style="left:80px;right:80px;top:1215px;text-align:center;color:var(--mute);font-size:17px">VIP visits · Assemblies · Prayer sessions</div>',bg='background:#fff')]
 # L3 Day board: weekday prayers
 days=[('MON','07:30','MORNING PRAYER'),('TUE','07:30','NATIONAL ANTHEM'),('WED','07:30','SCHOOL PRAYER'),('THU','07:30','PLEDGE'),('FRI','07:30','SCHOOL SONG'),('SAT','07:30','CALM AUDIO')]
@@ -26,7 +26,7 @@ P['l3-weekday-prayers']=[pg(hd()+'<div class=abs style="left:80px;right:80px;top
 zs=[('Zone 1','Classrooms',60),('Zone 2','Office',35),('Zone 3','Playground',95),('Zone 4','Library',15),('Zone 5','Corridors',50)]
 bars=''.join(f'<div style="display:flex;align-items:center;gap:24px;padding:20px 0;border-top:2px solid #E6E5DF"><div style="width:250px"><div class=m style="font-size:15px;color:var(--mute)">{z}</div><div style="font:800 38px Inter Tight;letter-spacing:-1px">{n}</div></div><div style="flex:1;height:22px;background:#EEEDE7;border-radius:11px"><div style="width:{v}%;height:22px;background:var(--ink);border-radius:11px"></div></div><div class=m style="width:70px;text-align:right;font-size:20px">{v}%</div></div>' for z,n,v in zs)
 P['l4-zone-volume']=[pg(hd()+'<div class=abs style="left:80px;right:500px;top:200px;font:900 92px/0.95 Inter Tight;letter-spacing:-4px">Every zone.<br>Its own volume.</div>'
- +'<img src=zone-selection.png class=abs style="right:70px;top:190px;width:400px">'
+ +'<img src=zone-selection.png class=abs style="right:70px;top:190px;width:400px;border-radius:18px;box-shadow:0 18px 50px rgba(11,12,10,.14)">'
  +f'<div class=abs style="left:80px;right:80px;top:520px">{bars}</div>'
  +'<div class=abs style="left:80px;right:80px;top:1150px;font:500 28px/1.4 Inter Tight;color:var(--mute)">Loud on the ground, soft near the library. Example levels; up to 5 zones depending on model.</div>'
  +ft('Free online demo',W,'color:var(--mute)'),bg='background:#fff')]
