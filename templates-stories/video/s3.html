@@ -1,0 +1,16 @@
+<html><head><meta charset=utf-8><link rel=stylesheet href=../base.css><style>
+@keyframes up{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes cam{from{transform:scale(1.18) translate(30px,40px)}to{transform:scale(1.02) translate(0,0)}}
+@keyframes shade{from{opacity:0}to{opacity:1}}
+@keyframes btn{0%{opacity:0;transform:scale(.9)}70%{opacity:1;transform:scale(1.04)}100%{opacity:1;transform:scale(1)}}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(163,207,68,0)}50%{box-shadow:0 0 0 18px rgba(163,207,68,.18)}}
+</style></head><body class=dark>
+<div class=abs style="inset:-40px;background:url(../knobs.png) center 30%/cover;animation:cam 8s linear both"></div>
+<div class=abs style="left:0;right:0;bottom:0;height:1200px;background:linear-gradient(180deg,rgba(11,12,10,0),rgba(11,12,10,.95) 50%);animation:shade 1.4s .6s both"></div>
+<div class="hd m" style="top:240px;color:#F4F3EE;animation:fade .8s .2s both"><span class=lg><img src=../logo.png>Cortek Electro</span><span>Smart School 360</span></div>
+<div class=abs style="left:80px;right:80px;top:1060px;font:900 128px/0.92 Inter Tight;letter-spacing:-6px;color:#F4F3EE;animation:up .9s 1.4s both cubic-bezier(.2,.7,.2,1)">Set it once.</div>
+<div class=abs style="left:80px;right:80px;top:1178px;font:900 128px/0.92 Inter Tight;letter-spacing:-6px;color:var(--lime);animation:up .9s 2.6s both cubic-bezier(.2,.7,.2,1)">It cares daily.</div>
+<div class=abs style="left:80px;right:80px;top:1340px;font:500 36px/1.35 Inter Tight;color:#C9CAC3;animation:fade .9s 3.6s both">Prayer, anthem, water bell and calm audio, each at its own time.</div>
+<div class=abs style="left:80px;top:1480px;animation:btn .6s 4.8s both"><span class=btn style="animation:glow 1.6s 5.4s 2 both">Book a free online demo</span></div>
+</body></html>
