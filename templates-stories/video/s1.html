@@ -1,0 +1,17 @@
+<html><head><meta charset=utf-8><link rel=stylesheet href=../base.css><style>
+@keyframes up{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes out{from{opacity:1}to{opacity:0;transform:translateY(-40px)}}
+@keyframes pop{0%{opacity:0;transform:scale(.92)}60%{opacity:1;transform:scale(1.03)}100%{opacity:1;transform:scale(1)}}
+@keyframes band{from{transform:translateY(700px)}to{transform:none}}
+@keyframes zoom{from{background-size:820px auto}to{background-size:880px auto}}
+.a{animation-fill-mode:both;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+</style></head><body class=dark>
+<div class="hd m a" style="top:240px;color:#F4F3EE;animation:fade .6s 0s both"><span class=lg><img src=../logo.png>Cortek Electro</span><span>Smart School 360</span></div>
+<div class="abs m a" style="left:80px;top:420px;color:var(--lime);animation:fade .6s .2s both">With Smart School 360</div>
+<div class="abs a" style="left:62px;top:470px;font:900 330px/0.9 Inter Tight;letter-spacing:-18px;color:#55574F;animation:up .7s .3s both, out .25s 1.35s both">10:59</div>
+<div class="abs a" style="left:62px;top:470px;font:900 330px/0.9 Inter Tight;letter-spacing:-18px;color:var(--lime);transform-origin:left center;animation:pop .5s 1.5s both">11:00</div>
+<div class="abs a" style="left:80px;top:800px;font:900 112px/0.95 Inter Tight;letter-spacing:-5px;color:#F4F3EE;animation:up .7s 2.0s both">Every bell.<br>Every day.</div>
+<div class="abs a" style="left:80px;right:80px;top:1040px;font:500 38px/1.35 Inter Tight;color:#A9AAA3;animation:fade .7s 2.7s both">Set the timetable once. It rings every bell, prayer and announcement on its own.</div>
+<div class="abs a" style="left:0;right:0;top:1230px;bottom:0;background:#fff url(../photo.png) center 40%/820px auto no-repeat;animation:band .9s 3.2s both, zoom 4.8s 3.2s linear both"></div>
+</body></html>
