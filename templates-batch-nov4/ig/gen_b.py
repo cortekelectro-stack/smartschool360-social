@@ -3,11 +3,9 @@ exec(open('gen.py').read().split('P={}')[0])
 P={}
 ring=lambda x,y,s: f'<div style="position:absolute;left:{x}px;top:{y}px;width:{s}px;height:{s}px;border-radius:50%;border:8px solid var(--lime);box-shadow:0 0 0 14px rgba(163,207,68,.25)"></div>'
 # 1 no accidental bells
-g=('<img src=password.png style="position:absolute;left:80px;top:200px;width:560px;border-radius:22px;box-shadow:0 30px 60px rgba(0,0,0,.5)">'
-   '<img src=are-you-sure.png style="position:absolute;left:440px;top:400px;width:560px;border-radius:22px;border:3px solid #24201C;box-shadow:0 30px 60px rgba(0,0,0,.6)">'
-   '<span class=chip style="position:absolute;left:110px;top:540px;background:var(--lime);color:var(--ink);z-index:3">Password lock</span>'
-   '<span class=chip style="position:absolute;left:700px;top:370px;background:var(--lime);color:var(--ink);z-index:3">Are you sure?</span>')
-P['post-1-no-accidental-bells']=[cover_graphic(1,1,'For office staff','No accidental<br><span>bells.</span>','Programming and settings sit behind a password. <b>Every manual bell asks “Are you sure?”</b> before it plays.',g,top_px=820,size=150)]
+BC="'Barlow Condensed'"
+g=(''.join(f'<div style="position:absolute;left:{x}px;top:200px;width:445px"><img src={img} style="width:445px;border-radius:20px;border:3px solid #24201C;display:block"><div style="margin-top:22px;display:flex;align-items:center;gap:14px"><span style="width:44px;height:44px;border-radius:12px;background:var(--lime);color:var(--ink);display:flex;align-items:center;justify-content:center;font:800 28px {BC}">{n}</span><span style="font:800 38px {BC};color:#fff">{t}</span></div></div>' for x,img,n,t in [(80,'password.png','1','Password lock'),(555,'are-you-sure.png','2','Are you sure?')]))
+P['post-1-no-accidental-bells']=[cover_graphic(1,1,'For office staff','No accidental<br><span>bells.</span>','Programming and settings sit behind a password. <b>Every manual bell asks “Are you sure?”</b> before it plays.',g,top_px=650,size=170)]
 # 2 mic + bell
 steps=[('10:58','Mic on','You start the morning announcement.','#fff','var(--ink)'),('11:00','Bell rings','The scheduled bell takes priority, right on time.','var(--lime)','var(--ink)'),('11:00','Mic back','Your announcement carries on by itself.','var(--ink)','#fff')]
 tl=''.join(f'<div style="display:flex;gap:34px;align-items:center;margin-bottom:22px"><div style="flex:none;width:210px;height:150px;border-radius:26px;background:{bg};color:{fg};display:flex;align-items:center;justify-content:center;font:800 76px \'Barlow Condensed\';{"box-shadow:0 18px 40px rgba(11,9,7,.07)" if bg=="#fff" else ""}">{t}</div><div><div style="font:800 52px/1 \'Barlow Condensed\'">{h}</div><div style="margin-top:8px;font:500 27px/1.35 Barlow;color:#6B655E">{d}</div></div></div>' for t,h,d,bg,fg in steps)
