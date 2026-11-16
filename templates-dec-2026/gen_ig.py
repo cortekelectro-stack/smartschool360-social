@@ -16,11 +16,11 @@ P['post-1-annual-day']=[
 # 2. Power cut (single)
 batt='''<div style="position:absolute;left:0;right:0;top:150px;height:560px">
 <div style="position:absolute;left:50%;top:52%;width:900px;height:520px;transform:translate(-50%,-50%);background:radial-gradient(ellipse,rgba(163,207,68,.22) 0%,rgba(163,207,68,0) 65%)"></div>
-<img src=product-clean.png style="position:absolute;left:50%;top:150px;width:760px;transform:translateX(-50%)">
-<div style="position:absolute;right:80px;top:40px;display:flex;align-items:center;gap:16px;background:#171411;border:2px solid #2a2622;border-radius:999px;padding:14px 26px 14px 18px">
+<div style="position:absolute;left:80px;right:80px;top:20px;height:560px;border-radius:32px;background:#fff;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5)"><img src=device-front-white.png style="position:absolute;left:50%;top:52%;width:720px;transform:translate(-50%,-50%)"></div>
+<div style="position:absolute;right:110px;top:50px;z-index:2;display:flex;align-items:center;gap:16px;background:#171411;border:2px solid #2a2622;border-radius:999px;padding:14px 26px 14px 18px">
 <div style="width:72px;height:36px;border:4px solid var(--lime);border-radius:8px;position:relative;padding:4px"><div style="width:80%;height:100%;background:var(--lime);border-radius:3px"></div><div style="position:absolute;right:-12px;top:8px;width:6px;height:12px;background:var(--lime);border-radius:2px"></div></div>
 <span style="font:700 20px Barlow;letter-spacing:3px;color:#fff">ON BATTERY</span></div></div>'''
-P['post-2-power-cut']=[cover_graphic(1,1,'When the power goes out','Power cut at 10:59?<br><span>The 11:00 bell rings.</span>','Inbuilt battery backup with auto charging keeps every bell, prayer and announcement on schedule. <b>A battery indicator warns you before it runs low.</b>',batt,top_px=760,size=128)]
+P['post-2-power-cut']=[cover_graphic(1,1,'When the power goes out','Power cut at 10:59?<br><span>The 11:00 bell rings.</span>','Inbuilt battery backup with auto charging keeps every bell, prayer and announcement on schedule. <b>A battery indicator warns you before it runs low.</b>',batt,top_px=790,size=128)]
 
 # 3. Marathi announcements (single, photo)
 P['post-3-marathi-announcements']=[cover_photo(1,1,'slates.jpg','For Marathi-medium schools','<span style="font-family:Mukta;letter-spacing:0;font-size:24px;text-transform:none">मराठीत घोषणा</span>','<style>.ph:after{background:linear-gradient(180deg,rgba(11,9,7,.6) 0%,rgba(11,9,7,0) 20%,rgba(11,9,7,0) 55%,rgba(11,9,7,.92) 85%,#0B0907 100%)!important}</style>Announcements<br><span>in Marathi.</span>','Prayer time, recess, dismissal. <b>Clear Marathi voice-overs</b>, played automatically at the time you set.',h=880,tagtop=700,copytop=770,size=140,pos='center 45%')]
