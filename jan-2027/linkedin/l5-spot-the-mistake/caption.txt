@@ -1,0 +1,5 @@
+A small puzzle for timetable in-charges: one bell in this schedule is wrong. Recess is 20 minutes.
+
+Comment the time you think is wrong. (Smart School 360 runs exactly what you set, so it pays to check the timetable before term starts.)
+
+#SchoolOperations #SchoolAdministration #Timetable #SmartSchool360
